@@ -1,0 +1,208 @@
+.Qickaid{
+  width: 100%;
+  background-image: url("./Component/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg");
+  background-size: cover;
+}
+.menu{
+  width: 200px;
+  background-color: #1976d2;
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.slider-container{
+  padding-top: 20px;
+}
+.generate:hover{
+ color: #1976d2;
+ font-weight: bolder;
+ background-color: transparent;
+ border: 1px solid #1976d2;
+}
+.footer:hover{
+ color: white;
+ /* font-weight: bolder; */
+ background-color: transparent;
+ border: 1px solid #1976d2;
+}
+/* ========================== */
+.glass-shine-effect {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 125px;
+  width: 125px; */
+  cursor: pointer;
+  position: relative;
+  transition: transform 200ms ease;
+  overflow: hidden;
+}
+.glass-shine-effect:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  height: 500%;
+  width: 50px;
+  transform: rotate(30deg);
+  background-color: rgba(255, 255, 255, 0.316);
+  left: -100px;
+}
+.glass-shine-effect:hover:before {
+  transition: left 900ms ease;
+  left: 250px;
+}
+/* .glass-shine-effect:hover {
+  transform: scale(1.1);
+} */
+
+/* ==================== */
+.css-1ondbrm-MuiTabs-list button{
+  font-size: 17px;
+  color: black;
+}
+.slick-track{
+  width: 100%;
+}
+.css-1vz7nti {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.css-l3xnfh-MuiGrid-root{
+  gap: 100px;
+}
+.css-16d0av3-MuiPaper-root{
+  margin-top: 0px !important;
+}
+.scanimg{
+  width: 50%;
+  padding: 65px;
+  margin: auto;
+  margin-top: 80px;
+  height: 300px;
+  background-image: url("./Component//person-holding-qr-code.webp");
+  background-size: cover;
+  color: white;
+  border: 2px solid #4285f4;
+  color: #4285f4;
+  text-shadow: 1px 2px black;
+  border-radius: 158px 10px 158px ;
+}
+
+.plus-sign {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.plus-sign::before,
+.plus-sign::after {
+  content: "";
+  position: absolute;
+  background-color: #1976d2;
+}
+
+.plus-sign::before {
+  width: 42px;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.plus-sign::after {
+  width: 100%;
+  height: 42px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.css-u4uvlt-MuiContainer-root{
+  margin-left: 50px !important;
+}
+.hover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover2:hover{
+  color: #1976d2;
+  border: 1px solid #1976d2 ;
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+.send{
+  width: 200px !important;
+  display: flex !important;
+  margin: auto !important;
+}
+.send:hover{
+  color: white;
+  background-color: #1976d2;
+}
+.signup{
+  width: 200px !important;
+  display: flex !important;
+  margin: auto !important;
+  margin-top: 25px !important;
+}
+.signup:hover{
+  color: white;
+  background-color: #1976d2;
+}
+.showdetail{
+  display: flex !important;
+  margin: auto !important;
+  padding: 8px !important;
+  margin-top: 35px !important;
+}
+.showdetail:hover{
+  color: white;
+  background-color: #1976d2;
+}
+.css-1umw9bq-MuiSvgIcon-root {
+  vertical-align: text-top;
+}
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background-color: white;
+  animation: scanLine 2s infinite;
+}
+@keyframes scanLine {
+  0% {
+    top: 0%;
+    opacity: 1;
+  }
+  50% {
+    top: 88%;
+    opacity:1;
+  }
+  100% {
+    top: 0%;
+    opacity:1;
+  }
+}
+/* @media (max-width: 1216px) {
+
+  .review{
+
+  }
+} */
+
