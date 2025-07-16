@@ -10,13 +10,13 @@ const feedbacks = [
 
 const TestimonialsSection = () => { 
   return (
-    <Box sx={{ padding:5 }}>
-      <Typography variant="h4" align="center"  sx={{marginTop:"30px",marginBottom:{lg:"50px",md:"80px",sm:"40px",xs:"30px"}}} gutterBottom>
+    <Box sx={{ padding:{lg:5,md:5,sm:5,xs:3} }}>
+      <Typography variant="h4" align="center"  sx={{marginTop:"30px",fontWeight:"bold",marginBottom:{lg:"50px",md:"80px",sm:"40px",xs:"30px"}}} gutterBottom>
         What Our Users Say
       </Typography>
       <Grid container spacing={{lg:4,md:2,sm:2,xs:2}} justifyContent="center">
         {feedbacks.map((user, index) => (
-          <Grid className="hover" item xs={12} md={4} key={index} sx={{width:{lg:"500px",md:"400px",sm:"520px"}}}>
+          <Grid className="hover" item xs={12} md={4} key={index} sx={{width:{lg:"530px !important",md:"400px",sm:"520px",xs:"400px !important"}}}>
             <Card sx={{ padding: 3,marginBottom:{lg:"0px",md:"0px",sm:""} }}>
               <CardContent>
                 <Avatar src={user.img} sx={{ width: 60, height: 60, mb: 2 }} />

@@ -13,13 +13,13 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <Box  sx={{padding:"0px 63px",paddingBottom:{lg:"40px",md:"40px",sm:"40px",xs:"0px"}}}>
-      <Typography variant="h4" sx={{paddingBottom:{lg:"45px",md:"45px",sm:"45px",xs:"15px"},marginTop:{lg:"100px",md:"100px",sm:"100px",xs:"70px"} , fontFamily:"sans-serif"}} align="center" gutterBottom>
+    <Box  sx={{padding:{lg:"0px 63px",md:"0px 63px",sm:"0px 63px",xs:"0px 15px"},paddingBottom:{lg:"40px",md:"40px",sm:"40px",xs:"0px"}}}>
+      <Typography variant="h4" sx={{paddingBottom:{lg:"45px",md:"45px",sm:"45px",xs:"15px"},marginTop:{lg:"100px",md:"100px",sm:"100px",xs:"70px"} , fontFamily:"sans-serif",fontWeight:"bold"}} align="center" gutterBottom>
         KEY FEATURE
       </Typography>
       <Grid container  justifyContent={"center"} spacing={{lg:4,md:2,sm:2}}>
         {features.map((f, index) => (
-          <Grid className="hover" item xs={12} md={4} key={index} sx={{width:{lg:"300px",md:"200px",sm:"450px"},margin:{lg:"0px",md:"0px",sm:"0px",xs:"8px"}}}>
+          <Grid className="hover" item xs={12} md={4} key={index} sx={{width:{lg:"300px",md:"200px",sm:"450px",xs:"380px"},margin:{lg:"0px",md:"0px",sm:"0px",xs:"8px"}}}>
             <Card sx={{ textAlign: 'center', width:{lg:"270px",md:"168px",sm:"415px"},padding: 2 }}>
               <CardContent>
                 {f.icon}

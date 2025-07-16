@@ -32,7 +32,7 @@ const Footer = () => {
 
           {/* Right: Social Icons */}
           <Grid item xs={12} md={4} sx={{margin:{lg:"0",md:"0",sm:"0",xs:"auto"}}}>
-            <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ paddingTop: { lg: "20px", md: "30px", sm: "25px" }, fontSize: {  lg: "35px", md: "30px", sm: "14px",xs:"25px" } }}>
+            <Typography variant="h4" fontWeight="bold" gutterBottom sx={{ paddingTop: { lg: "20px", md: "30px", sm: "25px" }, fontSize: {  lg: "35px", md: "30px", sm: "14px",xs:"25px" },textAlign:"center" }}>
               Follow Us
             </Typography>
             <Box>

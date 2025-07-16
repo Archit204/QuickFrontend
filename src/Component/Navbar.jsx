@@ -8,9 +8,13 @@ import Drawer from './Drawer';
 const Navbar = () => {
   return (
     <AppBar position="static" >
-      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between',gap:{lg:"204px",md:"100px",sm:"",xs:""} }}>
-        <Typography variant="h6">
+      <Toolbar sx={{ display: 'flex', justifyContent: {lg:"space-between",md:"space-between",sm:"space-between",xs:"space-between"},gap:{sm:"27px",xs:"94px"} }}>
 
+
+          <Drawer sx={{display:{lg:"none",md:"none",sm:"none",xs:"block"}}}></Drawer>
+
+
+        <Typography variant="h6">
           <Box sx={{width:{lg:"120px",md:"120px",sm:"90px",xs:"70px"},marginLeft:{lg:"40px",md:"40px",sm:"0px"}}}>
           <img src={logo} width={"100%"} style={{display:"block"}} alt="" />
           </Box>
@@ -25,7 +29,7 @@ const Navbar = () => {
           Add more links here like About, Contact etc */}
         </Box>
         
-        <Drawer sx={{display:{lg:"none",md:"none",sm:"none",xs:"block"}}}></Drawer>
+       
 
 <Box sx={{marginRight:{lg:"100px",md:"68px",sm:"19px"}}}>
         <Box sx={{width:"38px",position: 'relative'}}>

@@ -94,7 +94,7 @@ function FeaturesSection() {
 
   return (
     <Box sx={{ bgcolor: '#fff', paddingBottom:"30px"}} >
-      <Typography  sx={{marginTop:"80px",fontSize:{lg:"40px",md:"35px",sm:"30px",xs:"25px"}}} align="center" gutterBottom>
+      <Typography  sx={{marginTop:"80px",fontSize:{lg:"40px",md:"35px",sm:"30px",xs:"25px"},fontWeight:"bold"}} align="center" gutterBottom>
         Why Choose QuickAid?
       </Typography>
       <Box sx={{display:"flex",flexWrap:"wrap",pt:3,margin:"auto"}}>

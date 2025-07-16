@@ -33,7 +33,7 @@ export default function TemporaryDrawer() {
         <img src={logo} alt="" width={"100%"}/>
         </Box>
       </Box>
-    <Box sx={{ width: 250,padding:"50px 0px 0px 30px" }} role="presentation" onClick={toggleDrawer(false)}>
+    <Box sx={{ width: 250,padding:"100px 0px 0px 30px",display:"flex",flexWrap:"wrap",gap:"30px" }} role="presentation" onClick={toggleDrawer(false)}>
       <a href="/" className='menu' ><HomeIcon sx={{fontSize:"20px",verticalAlign:"middle"}}></HomeIcon> Home</a> <br />
       <a href="/about" className='menu'><GroupIcon sx={{fontSize:"20px",verticalAlign:"middle"}}></GroupIcon> About-Us</a> <br />
       <a href="/contact" className='menu'><PhoneIcon sx={{fontSize:"20px",verticalAlign:"middle"}}></PhoneIcon> Contact-Us</a> <br />

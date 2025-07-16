@@ -30,8 +30,8 @@ const steps = [
 
 function HowItWorks() {
   return (
-    <Box sx={{ bgcolor: '#f5f5f5', paddingTop: "50px", paddingBottom: { lg: "90px", md: "90px", sm: "50px" ,xs:"50px"}, px: 6 }}>
-      <Typography variant="h4" align="center" gutterBottom>
+    <Box sx={{ bgcolor: '#f5f5f5', paddingTop: "50px", paddingBottom: { lg: "90px", md: "90px", sm: "50px" ,xs:"50px"}, px:{ lg: 6, md: 6, sm: 6,xs:2.75 }}}>
+      <Typography variant="h4" align="center" gutterBottom fontWeight={"bold"}>
         How It Works?
       </Typography>
       <Grid container spacing={{ lg: 5, md: 4, sm: 4,xs:2 }} justifyContent="center" sx={{ mt: 4, padding: { lg: "0px", md: "0px" } }}>

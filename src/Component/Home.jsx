@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <>
       {/* <Header /> */}
-      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight: '90vh',pt:12}}>
+      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight: '90vh',pt:12,backgroundSize:"cover"}}>
         {/* <Container maxWidth="md" sx={{ md:{margin:"0px", background:"red"}}}> */}
           {/* <Box > */}
               <Box sx={{width:"50%",textAlign:"center",p:4}}>
