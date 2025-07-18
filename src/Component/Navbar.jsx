@@ -8,7 +8,7 @@ import Drawer from './Drawer';
 const Navbar = () => {
   return (
     <AppBar position="static" >
-      <Toolbar sx={{ display: 'flex', justifyContent: {lg:"space-between",md:"space-between",sm:"space-between",xs:"space-between"},gap:{sm:"27px",xs:"94px"} }}>
+      <Toolbar sx={{ display: 'flex', justifyContent: {lg:"space-between",md:"space-between",sm:"space-between",xs:"space-between"},gap:{sm:"27px",xs:"72px"} }}>
 
 
           <Drawer sx={{display:{lg:"none",md:"none",sm:"none",xs:"block"}}}></Drawer>
