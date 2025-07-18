@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <Box mt={4} textAlign="center" pt={2}>
           <Typography variant="body2">
-            © {new Date().getFullYear()} QuickAid. All rights reserved by <b>Archit</b>  and <b> Jigar</b>
+            © {new Date().getFullYear()} QuickAid. All rights reserved by <b>Archit m</b>  and <b> Jigar l</b>
           </Typography>
         </Box>
       </Container>
