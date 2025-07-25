@@ -19,26 +19,6 @@ function AuthPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   if (isSignup) {
-  //     if (formData.profession.toLowerCase() === 'doctor') {
-  //       if (!formData.license) {
-  //         alert("License number required for doctors.");
-  //         return;
-  //       }
-  //       navigate('/scan-name'); // Page for doctors
-  //     } else {
-  //       navigate('/generate'); // Other users
-  //     }
-  //   } else {
-  //     // Handle login
-  //     navigate('/generate'); // Login always goes to generate
-  //   }
-  // };
-  // src/Pages/AuthPage.jsx
-
 const handleSubmit = async (e) => {
   e.preventDefault();
 
@@ -50,7 +30,7 @@ const handleSubmit = async (e) => {
     } else {
       const res = await axios.post('http://localhost:3000/api/auth/login', formData);
       alert(res.data.message || "Login successful!");
-      // Login ke baad profile dikhao
+      // show profile after Login 
       navigate('/profile');
     }
   } catch (err) {

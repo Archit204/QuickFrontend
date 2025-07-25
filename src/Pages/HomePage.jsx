@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Component/Header'
+
 import Home from '../Component/Home'
 import Howitwork from '../Component/Howitwork'
 import Feature from '../Component/Feature'

@@ -78,7 +78,6 @@ function FeaturesSection() {
   const boxStyle = {
     height: '250px',
     width:{lg:"400px",md:"400px",sm:"500px",xs:"320px"},
-    // maxWidth: '800px', // 👈 ensures equal width
     border: '2px solid #1976d2',
     borderRadius: 3,
     boxShadow: 4,
@@ -88,8 +87,6 @@ function FeaturesSection() {
     justifyContent: 'center',
     textAlign: 'center',
     p: 2,
-    
-    // m: 'auto'
   };
 
   return (
@@ -152,11 +149,7 @@ function FeaturesSection() {
             </Typography>
           </Box>
         </Grid>
-
-
-
       </Grid>
-
 
       </Box>
     </Box>

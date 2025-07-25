@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Button, Typography, Container } from '@mui/material';
 import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
-import Header from '../Component/Header';
+
 import back from './young-handsome-physician-medical-robe-with-stethoscope_1303-17818.avif'
 import '../App.css'
 
@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <>
       {/* <Header /> */}
-      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight: '90vh',pt:12,backgroundSize:"cover"}}>
+      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight: '90vh',pt:{lg:12,md:12,sm:12,xs:1},backgroundSize:"cover"}}>
         {/* <Container maxWidth="md" sx={{ md:{margin:"0px", background:"red"}}}> */}
           {/* <Box > */}
               <Box sx={{width:"50%",textAlign:"center",p:4}}>
