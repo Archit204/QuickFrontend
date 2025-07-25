@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <>
       {/* <Header /> */}
-      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight:{lg:'90vh',md:'90vh',sm:'90vh',xs:'70vh'} ,pt:{lg:12,md:12,sm:12,xs:1},backgroundSize:"cover"}}>
+      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight:{lg:'90vh',md:'90vh',sm:'90vh',xs:'70vh'} ,pt:{lg:12,md:12,sm:12,xs:5},backgroundSize:"cover"}}>
         {/* <Container maxWidth="md" sx={{ md:{margin:"0px", background:"red"}}}> */}
           {/* <Box > */}
               <Box sx={{width:"50%",textAlign:"center",p:4}}>
