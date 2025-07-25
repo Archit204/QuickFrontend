@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <>
       {/* <Header /> */}
-      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight:{lg:'90vh',md:'90vh',sm:'90vh',xs:'70vh'} ,pt:{lg:12,md:12,sm:12,xs:5},backgroundSize:"cover"}}>
+      <Box className="Qickaid" sx={{ bgcolor: '#f5f5f5', minHeight:{lg:'90vh',md:'90vh',sm:'90vh',xs:'50vh'} ,pt:{lg:12,md:12,sm:12,xs:5},backgroundSize:"cover"}}>
         {/* <Container maxWidth="md" sx={{ md:{margin:"0px", background:"red"}}}> */}
           {/* <Box > */}
               <Box sx={{width:"50%",textAlign:"center",p:4}}>
@@ -18,7 +18,7 @@ function HomePage() {
 
 
             <Typography sx={{fontSize:{lg:"40px",md:"35px",sm:"30px",xs:"25px"}}}gutterBottom>
-              QuickAid
+              QuickAid1
             </Typography>
             <Typography sx={{fontSize:{lg:"25px",md:"25px",sm:"20px",xs:"18px"},letterSpacing:{lg:"0px",md:"0px",sm:"0px",xs:"-1px"}  }} color="black"  textAlign={"justify"}>
               A life-saving QR emergency card for everyone. Generate your emergency profile and keep it safe — available, even without internet. Always Ready , Always Reliable !
